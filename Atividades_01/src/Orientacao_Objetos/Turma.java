@@ -7,12 +7,4 @@ public class Turma {
 	public String sigla;
 	public String Tipo_ensino;
 	
-	
-	
-	
-	
-	
-	
-	
-	
 }

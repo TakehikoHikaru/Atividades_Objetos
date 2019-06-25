@@ -10,7 +10,7 @@ public class Teste_Cartao_Cliente {
 		Cliente a = new Cliente();
 		a.Cliente_Cod = 1;
 		a.Cliente_Nome = "alicio";
-		Cartao_Credito card =  new Cartao_Credito();
+		Cartao_Credito card =  new Cartao_Credito(33);
 		card.date_de_validade = "11/11/2011";
 		card.cliente = a;
 		

@@ -1,12 +1,16 @@
 package Testes;
 
+import Orientacao_Objetos.Agencia_de_bancos;
 import Orientacao_Objetos.Conta;
 
 public class Teste_Conta {
 	public static void main(String[] args) {
 
-		Conta Conta_1 = new Conta();
-		Conta Conta_2 = new Conta();
+		Agencia_de_bancos agencia_x = new Agencia_de_bancos(111);
+		
+		
+		Conta Conta_1 = new Conta(agencia_x);
+		Conta Conta_2 = new Conta(agencia_x);
 		
 		Conta_1.Num_conta = 4;
 		Conta_2.Num_conta = 6;

@@ -7,6 +7,19 @@ public class Conta {
 	double limite = 100;
 	public Agencia_de_bancos agencia;
 	
+	
+	public Conta(Agencia_de_bancos agencia) {
+		this.agencia = agencia;
+	}
+
+	
+	public static void Transferir_Valor_Contas(double Valor,Conta conta_1,Conta conta_2) {
+		conta_1.saldo -= Valor;
+		conta_2.saldo += Valor;
+		
+	}
+	
+	
 	public void Depositar(double valor) {
 		this.saldo += valor;
 	}

@@ -7,13 +7,10 @@ public class Teste_Contas_Agencias {
 
 	public static void main(String[] args) {
 		
-		Agencia_de_bancos agencia_1 = new Agencia_de_bancos();
-		Conta conta_1 = new Conta();
+		Agencia_de_bancos agencia_1 = new Agencia_de_bancos(11132);
+		Conta conta_1 = new Conta(agencia_1);
 		
 		
-		
-		agencia_1.Num_banco =11132;
-		conta_1.agencia = agencia_1;
 		System.out.println("Numero do banco: "+conta_1.agencia.Num_banco);
 		
 		
