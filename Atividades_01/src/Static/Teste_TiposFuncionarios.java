@@ -16,6 +16,7 @@ public class Teste_TiposFuncionarios {
 		ge.ConsultaDados();
 		te.ConsultaDados();
 		se.ConsultaDados();
+	
 		
 		
 		
